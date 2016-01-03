@@ -44,14 +44,48 @@ table {
 }
 
 /* 여기서부터 CSS 작성을 시작합니다. */
+body {
+    background-color: #EEE;
+}
+
 nav {
 
-	position: relative;
+	position: absolute;
+    width: 100%;
 	background-color: rgba(0,0,0,.5);
-	padding: 10px 0px 10px 0px;
+    background-repeat: repeat-y;
+	padding: 2px 0px 2px 0px;
 	text-align: center;
 	list-style: none;
-	font-family: ikaros;
-
+    clear: both;
 
 }
+
+.nav_logo {
+    
+    width: 2%;
+    height: 2%;
+}
+
+header {
+    
+    max-width: 900px;
+    min-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 360px 32px 32px 32px;
+    
+    background-color: #4180CF;
+}
+
+.title {
+    
+    font-family: 'roboto condensed';
+    font-weight: 700;
+    font-size: 40pt;
+    color: white;
+    color: white;
+    line-height: 38pt;
+}
+
+
