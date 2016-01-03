@@ -140,7 +140,7 @@ section {
     
 }
 
-.introtitle {
+.bonemuntitle {
     
     clear: both;
     font-weight: bold;
@@ -173,4 +173,96 @@ section {
     
 }
 
+.bonemun {
+    
+    padding-top : 20px;
+}
 
+#bonemun {
+    
+    color: #FFF;
+}
+
+.bonemunintro {
+    
+    margin-top: -10px;
+    color: #FFF;
+    line-height: 2em;
+}
+
+#link {
+    
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+#activity {
+    
+    background-color: #5eb7af;
+}
+
+#social {
+    
+    background-color: #aa92d8;
+}
+
+#works {
+    
+    background-color: #78909c;
+}
+
+#game {
+    
+    background-color: #6982e1;
+}
+
+#comment_a {
+    
+    color: #616161;
+    text-align: center;
+}
+
+#comment {
+    
+    border-bottom: 1px solid #EEE;
+    
+}
+
+footer {
+    
+    /*Position Option */
+    max-width: 1000px;
+    min-width: 1000px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    
+    /* Font Decoration Option */
+    font-family: roboto;
+    line-height: 12pt;
+    
+}
+
+#footer_img {
+    
+    /* Position Option */
+    float: left;
+    padding-right: 16px;
+    
+}
+
+footer p {
+    
+    padding-top: 5px;
+    font-size: .8em;
+    color: #E0E0E0;
+}
+
+#footer_blog, #footer_mail {
+    
+    text-decoration: none;
+    color: #81D4FA;
+}
