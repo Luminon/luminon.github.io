@@ -45,26 +45,7 @@ table {
 
 /* 여기서부터 CSS 작성을 시작합니다. */
 body {
-    background-color: #EEE;
-}
-
-nav {
-
-	position: absolute;
-    width: 100%;
-	background-color: rgba(0,0,0,.5);
-    background-repeat: repeat-y;
-	padding: 2px 0px 2px 0px;
-	text-align: center;
-	list-style: none;
-    clear: both;
-
-}
-
-.nav_logo {
-    
-    width: 2%;
-    height: 2%;
+    background-color: #FFF;
 }
 
 header {
@@ -75,7 +56,60 @@ header {
     margin-right: auto;
     padding: 360px 32px 32px 32px;
     
-    background-color: #4180CF;
+    
+    background-image: url(../elements/intro/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section {
+    
+    max-width: 900px;
+    min-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px 10px 32px;
+    font-family: 'Nanum Gothic';
+    color: #616161;
+    line-height: 1.5em;
+    
+    background-color: #2F65A8;
+}
+
+.top {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #BDBDBD;
+    background-size: 0%;
+    
+}
+
+.title_over {
+    
+    color: #FFF;
+    background-image: url(../elements/nav/luminon_Creativelogo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 24px;
+    padding-left: 36px;
+    margin-left: -32px;
+    font-family: "roboto mono";
+    font-weight: bold;
+    color: #424242;
+    
+}
+
+#title_a {
+    
+    color: #2E5595;
+}
+
+#title_b {
+    
+    color: #EC407A;
 }
 
 .title {
@@ -84,8 +118,59 @@ header {
     font-weight: 700;
     font-size: 40pt;
     color: white;
-    color: white;
     line-height: 38pt;
+}
+
+.subtitle {
+    
+    color: #d5e8ff;
+    
+}
+
+.introduce {
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 31px;
+    padding-right: 31px;
+    background-color: #FAFAFA;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    
+    
+}
+
+.introtitle {
+    
+    clear: both;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    color: #8D8D8D;
+    border-bottom: 2px dotted #E0E0E0;
+}
+
+.intropic {
+    
+    float: left;
+    position: relative;
+
+  
+}
+
+.intro {
+    
+    padding-top: 15px;
+    margin-left: 148px;
+    color: #8D8D8D;
+    
+}
+
+#boldintro  {
+    
+    font-weight: bold;
+    
 }
 
 
