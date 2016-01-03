@@ -1,0 +1,57 @@
+/* reset browser styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+
+
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset browser styles */
+/* FONT는 HTML에나 추가하세요 여기서 안됨 왠지모르겠는데 */
+
+/* Postition Align Setting : PAS */
+/* 가운데 정렬용 태그 옵션 */
+
+.PAS {
+
+    float: right;
+	position: relative;
+	left: -50%;
+
+}
+
+/* 여기서부터 CSS 작성을 시작합니다. */
+nav {
+
+	position: relative;
+	background-color: rgba(0,0,0,.5);
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	list-style: none;
+	font-family: ikaros;
+
+
+}
