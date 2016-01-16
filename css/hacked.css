@@ -1,0 +1,16 @@
+.title {
+    
+    padding-top: 240px;
+    font-family: 'Roboto Mono';
+    font-size: 4em;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.subtitle {
+    
+    font-family: 'NanumGothic';
+    font-size: 1.5em;
+    text-align: center;
+    color: #BDBDBD;
+}
