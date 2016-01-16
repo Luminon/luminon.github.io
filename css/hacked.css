@@ -1,16 +1,48 @@
 .title {
     
-    padding-top: 240px;
-    font-family: 'Roboto Mono';
+
+    font-family: 'Roboto';
     font-size: 4em;
-    text-align: center;
-    color: dodgerblue;
+    font-weight: 100;
+    text-align: left;
+    color: #999999;
+    
+    border: 1px solid #BDBDBD;
+    border-top: 0px solid #fff;
+    
+    padding-left: 36px;
+    padding-top: 240px;
+    padding-bottom: 36px;
+    
+    margin-top: -36px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 900px;
+    min-width: 900px;
+    
+
 }
 
 .subtitle {
     
     font-family: 'NanumGothic';
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
     color: #BDBDBD;
+    
+    border: 1px solid #BDBDBD;
+    border-top: 0px solid #fff;
+    
+    padding-left: 36px;
+    padding-top: 240px;
+    padding-bottom: 36px;
+    
+    margin-top: -36px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 900px;
+    min-width: 900px;
+    
 }
