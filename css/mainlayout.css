@@ -57,7 +57,7 @@ header {
     padding: 360px 32px 32px 32px;
     
     
-    background-image: url(../elements/intro/bg.png);
+    background-image: url(../elements/REGACY/intro/bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -90,7 +90,7 @@ section {
 .title_over {
     
     color: #FFF;
-    background-image: url(../elements/nav/luminon_Creativelogo.png);
+    background-image: url(../elements/REGACY/nav/luminon_Creativelogo.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 24px;

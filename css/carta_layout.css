@@ -1,0 +1,138 @@
+/* reset browser styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+
+
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset browser styles */
+
+/* General */
+
+#white_text {
+    
+    color: #FFFFFF;
+    
+}
+
+#black_text {
+    
+    color: #424242;
+    
+}
+
+/* Carta Layout */
+
+.carta_title_documents_type_b {
+    
+    /* Text */
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    font-size: 32pt;
+    color: #424242;
+    
+}
+
+.carta_subtitle_documents_type_b {
+    
+    /* position */
+    text-align: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
+    /* divider */
+    background-image: url(../elements/Carta/title_and_subtitle/subtitle_divider_type_b_white.png);
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: left bottom;
+    
+    /* Text */
+    font-family: 'Noto Sans KR';
+    font-size: 12pt;
+    color: #424242;
+    opacity: .6;
+    
+}
+
+.carta_subtitle_documents_type_a {
+    
+    /* position */
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 24px;
+    
+    /* divider */
+    background-image: url(../elements/Carta/title_and_subtitle/subtitle_divider_type_a.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position: top;
+    
+    /* Text */
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    font-size: 18pt;
+    color: #424242;
+    
+}
+
+.carta_documents_type_left {
+    
+    /* Text */
+    line-height: 14pt;
+    font-family: 'Noto Sans KR';
+    font-weight: 200;
+    font-size: 10pt;
+    color: #424242;
+}
+
+/* Luminon Canoness elements */
+
+.LCimg {
+    
+    margin-top: 22%;
+}
+
+#LC_plzslidedown {
+    
+    margin-top: 20%;
+}
+
+.LCaboutpage {
+    
+    /* position */
+    margin-top: 3%;
+    padding-top: 43%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    
+    /* Background */
+    background-image: url(../elements/elements/background/bg_luminon_about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
