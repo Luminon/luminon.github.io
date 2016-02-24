@@ -48,6 +48,7 @@ table {
 #linkdeleter {
     
     text-decoration: none;
+    color: #424242;
     
 }
 
@@ -115,6 +116,96 @@ table {
     color: #424242;
 }
 
+.carta_item_section_title {
+    
+    /* Position */
+    padding-top: 81px;
+    
+    /* title img layout : PLEASE CHANGE ICON WITH #ID */
+    background-image: url(../elements/Carta/icons/cartaform_carta.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 20%;
+    
+    /* Text */
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    font-size: 32pt;
+    color: #424242;
+}
+
+.carta_item_section_subtitle {
+    
+    /* position */
+    padding-top: 4px;
+    
+    /* Text */
+    font-family: 'Noto Sans KR';
+    font-size: 10pt;
+    color: #424242;
+    opacity: .7
+    
+}
+
+.carta_item_section_document {
+    
+    /* position */
+    text-align: justify;
+    padding-top: 12px;
+    margin-top: 12px;
+    max-width: 340px;
+    
+    /* divider */
+    background-image: url(../elements/Carta/title_and_subtitle/subtitle_divider_type_b.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left top;
+    
+    /* Text */
+    letter-spacing: .5px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    font-size: 10pt;
+    color: #424242;
+    opacity: .7;
+    
+}
+
+.carta_item_section {
+    
+    float: left;
+    margin-right: 96px;
+}
+
+#carta_lastitemsection {
+
+    margin-right: 0px;   
+    
+}
+
+.carta_outline_butten {
+    
+    /* box */
+    width: 128px;
+    margin-top: 18px;
+    padding: 14px 14px 14px 14px;
+    border: solid 1px #424242;
+    border-radius: 10px;
+    
+    /* Text */
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 10pt;
+    color: #424242;
+    opacity: .7
+    
+}
+
+.carta_outline_butten:hover {
+    
+    background-color: #EEE;
+}
+
 /* Luminon Canoness elements */
 
 .LCimg {
@@ -141,4 +232,32 @@ table {
     background-repeat: no-repeat;
     background-size: 100%;
     
+}
+
+.LCcommu {
+    
+    /* position */
+    max-width: 84.2%;
+    min-width: 84.2%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40%;
+    padding-top: 20%;
+    
+}
+
+#LCitemtwitter {
+    
+    background-image: url(../elements/Carta/icons/cartaform_twitter.png);
+}
+
+#LCitemfacebook {
+    
+    background-image: url(../elements/Carta/icons/cartaform_facebook.png);
+}
+
+#LCitemgit {
+    
+    background-image: url(../elements/Carta/icons/cartaform_github.png);
 }
