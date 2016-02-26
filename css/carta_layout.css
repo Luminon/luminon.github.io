@@ -116,71 +116,62 @@ table {
     color: #424242;
 }
 
-.carta_item_section_title {
+.carta_documents_type_center {
+    
+    /* Text */
+    text-align: center;
+    line-height: 14pt;
+    font-family: 'Noto Sans KR';
+    font-size: 11pt;
+    color: #424242;
+}
+
+.carta_item_block {
+    
+    /* position */
+    padding-top: 128px;
+    
+    /* please setting custom in #id tag */
+    
+}
+
+.carta_item_block_title {
+    
+    /* icons*/
+    background-image: url(../elements/Carta/icons/cartaform_carta.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 72px;
     
     /* Position */
-    padding-top: 81px;
-    
-    /* title img layout : PLEASE CHANGE ICON WITH #ID */
-    background-image: url(../elements/Carta/icons/cartaform_carta.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 20%;
+    padding-top: 86px;
     
     /* Text */
+    text-align: center;
     font-family: 'Noto Sans KR';
     font-weight: 100;
-    font-size: 32pt;
-    color: #424242;
-}
-
-.carta_item_section_subtitle {
-    
-    /* position */
-    padding-top: 4px;
-    
-    /* Text */
-    font-family: 'Noto Sans KR';
-    font-size: 10pt;
-    color: #424242;
-    opacity: .7
+    font-size: 36pt;
     
 }
 
-.carta_item_section_document {
+.carta_item_block_subtitle {
     
     /* position */
-    text-align: justify;
-    padding-top: 12px;
-    margin-top: 12px;
-    max-width: 340px;
+    margin-top: 10px;
+    padding-top: 10px;
     
     /* divider */
-    background-image: url(../elements/Carta/title_and_subtitle/subtitle_divider_type_b.png);
+    background-image: url(../elements/Carta/title_and_subtitle/subtitle_divider_type_a.png);
     background-repeat: no-repeat;
-    background-size: 10%;
-    background-position: left top;
+    background-size: 2%;
+    background-position: top;
     
-    /* Text */
-    letter-spacing: .5px;
+    /* font */
+    text-align: center;
     font-family: 'Noto Sans KR';
+    font-size: 1.1em;
     font-weight: 300;
-    font-size: 10pt;
-    color: #424242;
-    opacity: .7;
-    
-}
-
-.carta_item_section {
-    
-    float: left;
-    margin-right: 96px;
-}
-
-#carta_lastitemsection {
-
-    margin-right: 0px;   
-    
+    color: #646464;
 }
 
 .carta_outline_butten {
@@ -206,58 +197,34 @@ table {
     background-color: #EEE;
 }
 
-/* Luminon Canoness elements */
-
-.LCimg {
+.carta_comments {
     
-    margin-top: 22%;
-}
-
-#LC_plzslidedown {
-    
-    margin-top: 20%;
-}
-
-.LCaboutpage {
-    
-    /* position */
-    margin-top: 3%;
-    padding-top: 43%;
-    padding-left: 4%;
-    padding-bottom: 4%;
-    
-    /* Background */
-    background-image: url(../elements/elements/background/bg_luminon_about.png);
-    background-position: center;
+    /* image */
+    background-image: url(../elements/Carta/accessory/carta_ic_ken_taompyo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-}
-
-.LCcommu {
+    background-size: 36px;
+    background-position: top;
     
     /* position */
-    max-width: 84.2%;
-    min-width: 84.2%;
-    margin-top: 3%;
+    padding-top: 64px;
+    
+    /* text */
+    text-align: center;
+    font-family: "Nanum Myeongjo";
+    font-weight: 600;
+    font-size: 16pt;
+    font-style: italic;
+    line-height: 36px;
+    color: #424242;
+    opacity: .7;
+}
+/* Carta if */
+
+#carta_if_Buttencenter {
+    
+    max-width: 128px;
+    min-width: 128px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40%;
-    padding-top: 20%;
     
-}
-
-#LCitemtwitter {
-    
-    background-image: url(../elements/Carta/icons/cartaform_twitter.png);
-}
-
-#LCitemfacebook {
-    
-    background-image: url(../elements/Carta/icons/cartaform_facebook.png);
-}
-
-#LCitemgit {
-    
-    background-image: url(../elements/Carta/icons/cartaform_github.png);
 }
