@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* VERSION : RELEASE 0.1 */
+
+/* ARTICLES */
+
+section {
+    
+    max-width: 1024px;
+    min-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    
+    margin-bottom: 36px;
+}
+
+h1 {
+    
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24pt;
+    font-weight: 800;
+    color: #242424;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #646464;
+    margin-bottom: 16px;
+}
+
+h6 {
+    
+    text-align: center;
+    font-family: "NanumGothic", sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+    line-height: 24pt;
+    color: #BDBDBD;
+}
+
+a, pre, ul {
+    
+    font-family: "NanumGothic", sans-serif;
+    font-size: 12pt;
+    line-height: 24pt;
+    color: #646464;
+}
+
+li {
+    
+    font-size: 10pt;
+    margin-left: 16px;
+}
+
+code {
+    
+    font-family: "Roboto Mono","NanumGothic", sans-serif;
+    font-weight: bold;
+    color: #727272;
+    background-color: #DFDFDF;
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.link {
+    
+    text-decoration: none;
+    color: #2196F3;
+    font-weight: bold;
+    background-color: #FFF;
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.link:hover {
+    background-color: #BBDEFB;
+    transition: .5s;
+}
+
+li>a {
+    
+    font-size: 10pt;
+}
+
+/* IMAGES */
+
+.wysiwyg_largeimg {
+    
+    background-color: black;
+    width: 1024px;
+    height: 512px;
+    overflow: hidden; 
+}
+
+.wysiwyg_largeimg>img {
+    
+    opacity: .6;
+    width: 100%;
+}
+
+.wysiwyg_largeimg>img:hover {
+    
+    opacity: 1;
+    transform: scale(1.2);
+    transition: transform 1.5s;
+    transition: 1.5s;
+}
+
+.wysiwyg_img {
+    
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+}
+
+.wysiwyg_img>img {
+    
+    opacity: .5;
+    
+}
+
+.wysiwyg_img>img:hover {
+    
+    opacity: 1;
+    transform: scale(1.2);
+    transition: transform 1.5s;
+    transition: 1.5s;
+}
