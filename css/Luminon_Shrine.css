@@ -35,6 +35,20 @@ h1 {
     margin-bottom: 16px;
 }
 
+h2 {
+    
+    font-family: "NanumGothic",sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #999999;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd
+}
+
 h6 {
     
     text-align: center;
@@ -45,7 +59,7 @@ h6 {
     color: #BDBDBD;
 }
 
-a, pre, ul {
+a, pre, ul, p {
     
     font-family: "NanumGothic", sans-serif;
     font-size: 12pt;
@@ -79,6 +93,7 @@ code {
     border-radius: 2px;
     padding-left: 2px;
     padding-right: 2px;
+    transition: .5s;
 }
 
 .link:hover {
@@ -93,7 +108,7 @@ li>a {
 
 /* IMAGES */
 
-.wysiwyg_largeimg {
+.shrine_largeimg {
     
     background-color: black;
     width: 1024px;
@@ -101,13 +116,14 @@ li>a {
     overflow: hidden; 
 }
 
-.wysiwyg_largeimg>img {
+.shrine_largeimg>img {
     
     opacity: .6;
     width: 100%;
+    transition: 1.5s;
 }
 
-.wysiwyg_largeimg>img:hover {
+.shrine_largeimg>img:hover {
     
     opacity: 1;
     transform: scale(1.2);
@@ -115,7 +131,7 @@ li>a {
     transition: 1.5s;
 }
 
-.wysiwyg_img {
+.shrine_img {
     
     width: 512px;
     height: 512px;
@@ -124,16 +140,44 @@ li>a {
     overflow: hidden;
 }
 
-.wysiwyg_img>img {
+.shrine_img>img {
     
     opacity: .5;
+    transition: 1.5s;
     
 }
 
-.wysiwyg_img>img:hover {
+.shrine_img>img:hover {
     
     opacity: 1;
     transform: scale(1.2);
     transition: transform 1.5s;
     transition: 1.5s;
+}
+
+/* BUTTONS */
+
+.snslink {
+    width: 208px;
+    text-align: center;
+    padding: 16px 24px 16px 24px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+    border-radius: 48px;
+    box-shadow: 0px 0px 0px #FFF;
+    transition: .2s;
+}
+
+.snslink>a {
+    
+    font-family: "NanumGothic", sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.snslink:hover {
+    
+    box-shadow: 0px 10px 16px;
+    transform: .2s;
 }

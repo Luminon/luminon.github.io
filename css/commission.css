@@ -25,6 +25,7 @@ header>div {
     border-radius: 8px;
     margin-bottom: 16px;
     box-shadow: 0px 0px 0px #FFF;
+    transition: .6s;
 }
 
 .price {
@@ -56,4 +57,35 @@ header>div {
     
     box-shadow: 0px 10px 16px #DFDFDF;
     transition: .6s;
+}
+
+#mail {
+    background-color: #426CF4;
+
+}
+
+#mail>a {
+    
+    color: white;
+}
+
+#mail:hover {
+    
+    box-shadow: 0px 10px 16px #a4b9ff;
+    transform: .2s;
+}
+
+.com_step {
+    
+    border: 1px solid #bdbdbd;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.com_step>img {
+    
+    width: 640px;
 }
