@@ -73,6 +73,11 @@ li {
     margin-left: 16px;
 }
 
+ul>ul {
+    
+    margin-left: 24px;
+}
+
 code {
     
     font-family: "Roboto Mono","NanumGothic", sans-serif;
@@ -160,7 +165,7 @@ li>a {
 .snslink {
     width: 208px;
     text-align: center;
-    padding: 16px 24px 16px 24px;
+    padding: 16px 18px 16px 18px;
     margin-top: 14px;
     margin-bottom: 24px;
     border-radius: 48px;
@@ -181,3 +186,19 @@ li>a {
     box-shadow: 0px 10px 16px;
     transform: .2s;
 }
+
+/*FOOTER*/
+footer {
+    
+    margin-top: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+footer>p {
+    
+    color: #A5A5A5;
+}
+

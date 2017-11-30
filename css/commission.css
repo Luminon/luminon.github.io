@@ -61,6 +61,8 @@ header>div {
 
 #mail {
     background-color: #426CF4;
+    float: left;
+    margin-right: 16px;
 
 }
 
@@ -75,6 +77,61 @@ header>div {
     transform: .2s;
 }
 
+#twitter {
+    background-color: #55acee;
+    float: left;
+    margin-right: 16px;
+
+}
+
+#twitter>a {
+    
+    color: white;
+}
+
+#twitter:hover {
+    
+    box-shadow: 0px 10px 16px #97d2ff;
+    transform: .2s;
+}
+
+#discord {
+    background-color: #7289DA;
+    float: left;
+    margin-right: 16px;
+
+}
+
+#discord>a {
+    
+    color: white;
+}
+
+#discord:hover {
+    
+    box-shadow: 0px 10px 16px #b8c8ff;
+    transform: .2s;
+}
+
+#telegram {
+    background-color: #419fd9;
+    float: left;
+
+
+}
+
+#telegram>a {
+    
+    color: white;
+}
+
+#telegram:hover {
+    
+    box-shadow: 0px 10px 16px #9cd9ff;
+    transform: .2s;
+}
+
+
 .com_step {
     
     border: 1px solid #bdbdbd;
@@ -88,4 +145,43 @@ header>div {
 .com_step>img {
     
     width: 640px;
+}
+
+
+.goodpoint {
+    
+    width: 340px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    float: left;
+    text-align: center;
+    line-height: 24pt;
+    border-right: 1px solid #EEEEEE;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #FFFFFF;
+    transition: 1.0s;
+}
+
+.goodpoint>a {
+    
+    color: #bdbdbd;
+    font-weight: bold;
+}
+
+#endpoint {
+    
+    border-right: none;
+    
+}
+
+.goodpoint:hover {
+    
+    border-right: 1px solid #FFF;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 16px #b0fff0;
+    color: white;
+    transition: .5s;
 }
