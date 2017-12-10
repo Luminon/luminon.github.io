@@ -161,37 +161,12 @@ li>a {
     overflow: hidden; 
 }
 
-@media ( max-width: 1024px ) {
-  
-    .shrine_largeimg {
-    
-    background-color: black;
-    
-    width: 100%;
-    height: auto;
-    overflow: hidden; 
-    }
-
-}
-
 .shrine_largeimg>img {
     
     opacity: .6;
     width: 100%;
     
     transition: 1.5s;
-}
-
-@media ( max-width: 1024px ) {
-  
-    .shrine_largeimg>img {
-    
-    opacity: .8;
-    transform: scale(1.2);
-    transform-origin: top;
-    transition: 1.5s;
-    }
-
 }
 
 .shrine_largeimg>img:hover {
@@ -204,6 +179,23 @@ li>a {
 
 @media ( max-width: 1024px ) {
   
+    .shrine_largeimg {
+    
+    background-color: black;
+    
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+    }
+    
+    .shrine_largeimg>img {
+    
+    opacity: .8;
+    transform: scale(1.2);
+    transform-origin: top;
+    transition: 1.5s;
+    }
+    
     .shrine_largeimg>img:hover {
     
     opacity: 1;
@@ -231,6 +223,7 @@ li>a {
     overflow: hidden;
 }
 
+
 .shrine_img>img {
     
     opacity: .5;
@@ -239,6 +232,7 @@ li>a {
     
 }
 
+
 .shrine_img>img:hover {
     
     opacity: 1;
@@ -246,6 +240,35 @@ li>a {
     transform: scale(1.2);
     transition: transform 1.5s;
     transition: 1.5s;
+}
+
+@media ( max-width: 1024px ) {
+  
+    .shrine_img {
+    
+    background-color: black;
+    
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+    }
+    
+    .shrine_img>img {
+    
+    opacity: .8;
+    transform: scale(2);
+    transform-origin: top;
+    transition: 1.5s;
+    }
+    
+    .shrine_img>img:hover {
+    
+    opacity: 1;
+    transform: scale(2.2);
+    transition: transform 1.5s;
+    transition: 1.5s;
+    }
+
 }
 
 /* BUTTONS */

@@ -16,6 +16,14 @@ header>div {
     
 }
 
+@media ( max-width: 1024px ) {
+  
+    header>div>img {
+        
+        width: 80%;
+    }
+}
+
 .pricezone {
     text-align: center;
     padding-top: 32px;
