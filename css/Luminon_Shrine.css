@@ -212,7 +212,7 @@ li>a {
     /*
     일반 이미지 태그입니다.
     <div>안에 <img>를 넣고 <div>에 class="shrine_largeimg"
-    ㅇ;ㄹ 이미지의 권장 크기는 1024px * 512px입니다.
+    이미지의 권장 크기는 1024px * 512px입니다.
     */
     
     background-color: black;
@@ -247,7 +247,6 @@ li>a {
     .shrine_img {
     
     background-color: black;
-    
     width: 100%;
     height: auto;
     overflow: hidden; 
@@ -255,8 +254,9 @@ li>a {
     
     .shrine_img>img {
     
+    width: 100%;
     opacity: .8;
-    transform: scale(2);
+    transform: scale(1.2);
     transform-origin: top;
     transition: 1.5s;
     }
@@ -264,7 +264,7 @@ li>a {
     .shrine_img>img:hover {
     
     opacity: 1;
-    transform: scale(2.2);
+    transform: scale(1.3);
     transition: transform 1.5s;
     transition: 1.5s;
     }
