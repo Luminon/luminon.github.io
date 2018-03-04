@@ -9,28 +9,113 @@
 
 /* dotdesign */
 
+
+/* 최고위 속성 */
+
 html { 
     
-    background: url(../elements/index/title.webp) no-repeat center center fixed; 
+    /* 타이틀 이미지를 위한 속성 */
+    background: url(../elements/index/title.png) no-repeat center center fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover; 
     background-color: #242424;
-
-}
-
-header {
-
     
 }
+
+body {
+    
+    /* 스크롤바가 생기지 않기 위해 만든 속성 */
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+
+html, body {
+    
+    /* div 높이를 조절하려고 만든 속성 */
+    height: 100%;
+} 
+
+
+/* 헤더 속성*/
+
+header {
+    
+    margin: 2% 2% 2% 2%;
+    height: 96%;
+}
+
+/* ------------ 헤더 전체레이아웃 속성 ------------ */
+
+.titleLayoutSet {
+    
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    height: 94%;
+}
+
+
+.titleZone {
+    
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+    padding: 2% 2% 2% 2%;
+    border: 1px solid #FFF;
+    
+}
+
+/* ------------ 타이틀 부분 속성 ------------ */
+
+#title {
+    
+    position: relative;
+}
+
+
+#title>img {
+    
+    position: absolute;
+    left: 4%;
+    bottom: 4%;
+    width: 40%;
+}
+
+
+/* ------------ 슬로건 부분 속성 ------------ */
 
 #slogan {
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #FFF;
     
 }
 
-#slogan>img {
+#sloganSize {
     
-    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+#sloganSize>a {
+    
+    font-family: 'Cabin', sans-serif;
+    font-size: 12pt;
+    color: #242424;
+    letter-spacing: 20pt;
+    line-height: 36pt;
+}
+
+#sloganSize>img {
+    
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
