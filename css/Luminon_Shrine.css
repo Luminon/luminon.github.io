@@ -67,6 +67,23 @@ h2 {
     border-top: 1px solid #bdbdbd
 }
 
+h3 {
+    
+    font-family: "NanumGothic",sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #646464;
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    
+    border-bottom: 1px dotted #bdbdbd;
+
+    
+}
+
 h6 {
     
     text-align: center;
@@ -103,7 +120,6 @@ ul>ul {
 }
 
 code {
-    
     font-family: "Roboto Mono","NanumGothic", sans-serif;
     font-weight: bold;
     color: #727272;
@@ -113,6 +129,13 @@ code {
     
     padding-left: 2px;
     padding-right: 2px;
+    
+    /*
+	text overflow issue solve
+	author @antiweb
+    */
+    white-space: pre-wrap;
+    word-break: break-all;
 }
 
 .link {
@@ -145,6 +168,32 @@ li>a {
 }
 
 /* IMAGES */
+
+.img {
+    
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px #FFF;
+    transition: .6s;
+}
+
+.img:hover {
+    
+    box-shadow: 0px 10px 16px #DFDFDF;
+    transition: .6s;
+}
+
+@media ( max-width: 1024px ) {
+    
+    .img {
+    
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0px 10px 16px #DFDFDF;
+        transition: .6s;
+    }
+    
+}
 
 .shrine_largeimg {
     
@@ -308,6 +357,108 @@ li>a {
     transform: .2s;
 }
 
+
+.gamelink {
+    
+    /* Geme Link는 자신의 게임 아이디를 좀 더 깔끔하게 전송하기 위한 폼입니다. 게임 아이콘에는 48px의 아이콘을 사용합니다. */
+
+    font-family: "NanumGothic", sans-serif;
+    text-decoration: none;
+}
+
+.gamelink>div {
+    
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    float: left;
+    width: 28%;
+    padding: 16px 16px 16px 16px;
+    background-color: #424242;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px #FFF;
+    transition: .6s;
+}
+
+.gamelink>div:hover {
+    
+    box-shadow: 0px 10px 16px #DFDFDF;
+    border-radius: 2px;
+    transition: .6s;
+}
+
+.gamelink>div>img {
+    
+    float: left;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.gamelink>div>p:nth-child(2) {
+    margin-top: 8px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+
+.gamelink>div>p:nth-child(3) {
+    
+    clear: both;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 8px;
+    color: #FFF;
+    opacity: .8;
+    
+}
+
+
+@media ( max-width: 1024px ) {
+    
+    .gamelink {
+
+        font-family: "NanumGothic", sans-serif;
+        text-decoration: none;
+    }
+
+    .gamelink>div {
+        
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 0px;
+        border-radius: 4px;
+        box-shadow: 0px 10px 16px #DFDFDF;
+        transition: .6s;
+    }
+
+    .gamelink>div>img {
+    
+        float: left;
+        margin: 16px;
+    }
+
+    .gamelink>div>p:nth-child(2) {
+        margin-top: 24px;
+        font-size: 16pt;
+        font-weight: bold;
+        color: white;
+        float: left;
+    }
+
+    .gamelink>div>p:nth-child(3) {
+    
+        clear: both;
+        border-top: 1px solid #FFFFFF;
+        margin: 0px 16px 16px 16px;
+        padding-top: 16px;
+        color: #FFF;
+        opacity: .8;
+    
+    }
+
+}
 /*FOOTER*/
 footer {
     
