@@ -7,7 +7,7 @@ header {
 .profile {
     
     text-align: right;
-    padding-top: 280px;
+    padding-top: 480px;
     margin-bottom: 36px;
     max-width: 1024px;
     min-width: 320px;
@@ -74,7 +74,7 @@ header {
     .profile {
     
         text-align: center;
-        padding-top: 480px;
+        padding-top: 360px;
         margin-bottom: 36px;
         max-width: 100%;
         min-width: 0;
