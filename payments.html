@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Luminon Payments</title>
+    <meta charset="utf-8">
+    
+    <!-- Link CSS -->
+    <link href = "css/payments.css" rel="stylesheet">
+    
+    <!-- Link CSS -->
+    <link href = "css/payments_mobile.css" rel="stylesheet">
+
+    <!--Nanum Gothic -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    
+    <!--Roboto Mono-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="elements/shrine/favicon.ico">
+
+    <script>
+        
+        function copyToClipboard(elementId) {
+
+        var aux = document.createElement("input");
+        
+        aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+
+        document.body.appendChild(aux);
+        
+        aux.select();
+        
+        document.execCommand("copy");
+
+        document.body.removeChild(aux);
+
+        }     
+
+    </script>
+    
+</head>
+<body>
+    <header>
+        <img src="elements/bank/SVG/ic_logo.svg" alt="Luminon Payments">
+        <p>Luminon Canoness &#40;구창림&#41; 에게 금액을 지불할 수 있는 계좌 정보입니다.</p>
+    </header>
+    <article>
+        <div class="useToss">
+            <img src="elements/bank/SVG/pic_tossQR.svg" alt="tossQR">
+            <a href="https://get.toss.im/kmZb6LH9jM">Toss하기</a>
+            <p>
+                Toss를 이용해 간편하게 송금할 수 있습니다!<br> QR 코드를 휴대폰으로 촬영하거나 모바일에서 이 페이지에 있는 토스 링크를 열어 바로 송금할 수 있습니다.
+            </p>
+            <div style="clear: both"></div>
+        </div>
+        <div class="mainPayments">
+            <a>이 계좌로 송금하는 것이 편해요!</a>
+        </div>
+        <div class="payments" id="shinhan">
+            <img src="elements/bank/SVG/ic_sinhan.svg">
+            <h1>신한은행</h1>
+            <h2>SHINHAN BANK</h2>
+            <p id="shinhan_code">110489349561</p>
+            <button onclick="copyToClipboard('shinhan_code')">복사</button>
+        </div>
+        <div class="payments" id="kookmin">
+            <img src="elements/bank/SVG/ic_kb.svg">
+            <h1>국민은행</h1>
+            <h2>KOOKMIN BANK</h2>
+            <p id="kookmin_code">56470201408600</p>
+            <button onclick="copyToClipboard('kookmin_code')">복사</button>
+        </div>
+        <div class="payments" id="kakao">
+            <img src="elements/bank/SVG/ic_kakao.svg">
+            <h1>한국카카오은행</h1>
+            <h2>KAKAO BANK</h2>
+            <p id="kakao_code">3333012664924</p>
+            <button onclick="copyToClipboard('kakao_code')">복사</button>
+        </div>
+        <div style="clear: both;"></div>
+    </article>
+    <footer>
+        <img src="elements/commission/ic_footer_luminon.svg" alt="Luminon Canoness" width="24px;"><br>
+        <p>(C)2017 Luminon Canoness 모든 권리 보유. | <a href="http://itsuka.me" class="link">Luminon Creative</a> | <a href="mailto:atluminon@itsuka.me" class="link">MAIL</a><br>
+        </p>
+    </footer>
+</body>
+</html>

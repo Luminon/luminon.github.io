@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* -- */
+
+header {
+    padding: 72px 0px 72px 0px;
+    background-color: #242424;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #AAAAAA;
+}
+
+header>img {
+    
+    width: 320px;
+    margin-bottom: 36px;
+}
+
+article {
+    margin-top: 54px;
+    margin-bottom: 64px;
+    max-width: 1280px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.useToss {
+    
+    margin-bottom:24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 0px 32px 0px;
+    background-color: #2F5FD2;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px #FFF;
+    transition: .75s;
+    
+}
+
+.useToss:hover {
+    
+    box-shadow: 0px 10px 16px #DFDFDF;
+    transition: .75s;
+    
+}
+
+.useToss>img {
+    
+    width: 128px;
+    transition: .75s;
+}
+
+.useToss>img:hover {
+    
+    width: 256px;
+    transition: .75s;
+}
+
+.useToss>a {
+    
+    display: none;
+}
+
+.useToss>p {
+    
+    width: 29%;
+    
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    line-height: 16pt;
+    color: #FFFFFF;
+    
+}
+
+.mainPayments {
+    
+    width: 30%;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    border-top: 2px solid #FC5E75;
+}
+
+.mainPayments>a {
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10pt;
+    color: #FC5E75;
+}
+
+.payments {
+    
+    margin-right: 5%;
+    
+    width: 30%;
+    text-align: center;
+    background-color: #0076be;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px #FFF;
+    transition: .75s;
+    float: left;
+    
+}
+
+.payments:nth-child(5) {
+    
+    margin-right: 0;
+}
+
+.payments:hover {
+    
+    box-shadow: 0px 10px 16px #DFDFDF;
+    transition: .75s;
+}
+
+
+.payments>img {
+    
+    width: 128px;
+    margin: 72px 0px 48px 0px;
+}
+
+.payments>h1 {
+    
+    margin-bottom: 16px;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 24pt;
+    color: white;
+    
+}
+
+.payments>h2 {
+    
+    margin-bottom: 16px;
+    
+    font-family: 'Roboto Mono', sans-serif;
+    color: black;
+    opacity: .5;
+}
+
+.payments>p {
+    
+    margin-bottom: 64px;
+    
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
+    font-size: 16pt;
+    letter-spacing: 4pt;
+}
+
+.payments>button {
+    
+    margin-bottom: 32px;
+    padding: 16px 32px 16px 32px;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14pt;
+    color: white;
+    background-color: rgba(255, 255 ,255 ,0);
+    border: 1px solid white;    
+    border-radius: 4px;
+    transition: .5s;
+    
+    cursor: pointer;
+    
+}
+
+.payments>button:hover {
+    
+    background-color: rgba(255, 255, 255, .2);
+    transition: .5s;
+}
+
+#kookmin {
+    
+    background-color: #545045;
+}
+
+#kakao {
+    
+    background-color: #313955;
+}
+
+footer>p>a {
+    
+    text-decoration: none;
+    color: #426CF4;
+}
+
+footer {
+    
+    margin-top: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #FAFAFA;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 18pt;
+    
+    text-align: center;
+}
+
+footer>p {
+    
+    color: #A5A5A5;
+}
