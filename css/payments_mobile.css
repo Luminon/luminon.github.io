@@ -123,9 +123,8 @@
     }
 
     .payments {
-
-        margin-right: 5%;
-
+        
+        
         width: 100%;
         text-align: center;
         background-color: #0076be;
@@ -175,8 +174,8 @@
 
     .payments>p {
 
-        margin-bottom: 32px;
-
+        padding-bottom: 64px;
+        margin-bottom: 0;
         font-family: 'Roboto Mono', sans-serif;
         color: white;
         font-size: 16pt;
@@ -184,7 +183,9 @@
     }
 
     .payments>button {
-
+        
+        display: none;
+        /*
         margin-bottom: 32px;
         padding: 16px 32px 16px 32px;
 
@@ -197,7 +198,7 @@
         transition: .5s;
 
         cursor: pointer;
-
+        */
     }
 
     .payments>button:hover {
