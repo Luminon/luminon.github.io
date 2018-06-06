@@ -7,28 +7,32 @@
     font-size: 100%;
     vertical-align: baseline;
     }
+    
+    br {
+        
+        display: none;
+    }
 
     /* -- */
 
     header {
+        
         padding: 72px 0px 72px 0px;
-        background-color: #242424;
-        text-align: center;
+        text-align: left;
         font-family: 'Nanum Gothic', sans-serif;
         color: #AAAAAA;
+        border-bottom: 1px solid #DBDBDB;
     }
 
     header>img {
-
+        
         width: 50%;
-        margin-bottom: 36px;
+        margin: 0% 8% 36px 8%;
     }
 
     header>p {
-
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        
+        margin: 0% 8% 0% 8%;
         line-height: 18pt;
     }
 
@@ -39,182 +43,106 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    article>div:first-child {
+        
+        border-bottom: 1px solid #DBDBDB;
+    }
 
-    .useToss {
-
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 32px 0px 32px 0px;
-        background-color: #2F5FD2;
-        text-align: center;
+    .Payments {
+        
+        float: none;
+        width: 100%;
+        text-align: left;
+        border: none;
         border-radius: 0px;
-        box-shadow: 0px 0px 0px #FFF;
-        transition: 0;
-
     }
-
-    .useToss:hover {
-
-        box-shadow: 0px 0px 0px #DFDFDF;
-        transition: 0;
-
+    
+    .Payments>h1 {
+        
+        margin: 24px 8% 24px 8%;
+        
     }
-
-    .useToss>img {
-
+    
+    .Payments>h2 {
+        
+        margin: 24px 8% 24px 8%;
+        
+    }
+    
+    .acc_code {
+        
+        margin: 32px 8% 72px 8%;
+    }
+    
+    #Toss>img:first-child {
+    
+        height: 32px;
+        margin: 56px 8% 56px 8%;
+    
+    }
+    
+    #Toss>img:nth-child(3) {
+    
         display: none;
+    
     }
-
-    .useToss>img:hover {
-
-        width: 256px;
-        transition: .75s;
-    }
-
-    .useToss>a {
-
-        display: block;
-        width: 30%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 3%;
-
+    
+    .tossMe {
+        
+        display: inherit;
+        padding: 24px 0px 24px 0px;
+        margin: 0% 8% 24px 8%;
+        border-radius: 4px;
+        text-align: center;
+        color: white;
         text-decoration: none;
         font-family: 'Nanum Gothic', sans-serif;
         font-weight: bold;
-        color: #2F5FD2;
-        background-color: white;
-        border-radius: 4px;
+        background-color: #2F5FD2;
     }
-
-    .useToss>p {
-
-        width: 90%;
-
-        margin-top: 32px;
-        margin-left: auto;
-        margin-right: auto;
-
-        font-family: 'Nanum Gothic', sans-serif;
-        font-weight: bold;
-        font-size: 10pt;
-        line-height: 16pt;
-        color: #FFFFFF;
-
-    }
-
-    .mainPayments {
-
-        width: 100%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        margin-bottom: 0;
-        text-align: center;
-        border-top: 2px dotted rgba(255, 255, 255, .5);
-        background-color: #0e4d8c;
-    }
-
-    .mainPayments>a {
-        
+    
+    #Toss>p:nth-child(5) {
+    
+        margin: 24px 8% 24px 8%;
         font-family: 'Nanum Gothic', sans-serif;
         font-size: 10pt;
-        color: #FFFFFF;
+        color: #646464;
     }
 
-    .payments {
+    #Toss>p:nth-child(6) {
         
-        
-        width: 100%;
-        text-align: center;
-        background-color: #0076be;
-        border-radius: 0px;
-        box-shadow: 0px 0px 0px #FFF;
-        transition: .0s;
-        float: none;
-
-    }
-
-    .payments:nth-child(5) {
-
-        margin-right: 0;
-    }
-
-    .payments:hover {
-
-        box-shadow: 0px 0px 0px #DFDFDF;
-        transition: 0s;
-    }
-
-
-    .payments>img {
-
-        width: 128px;
-        margin: 48px 0px 48px 0px;
-    }
-
-    .payments>h1 {
-
-        margin-bottom: 16px;
-
+        margin: 32px 8% 32px 8%;
         font-family: 'Nanum Gothic', sans-serif;
-        font-size: 24pt;
-        color: white;
-
+        font-size: 10pt;
+        color: #bdbdbd;
     }
-
-    .payments>h2 {
-
-        margin-bottom: 16px;
-
-        font-family: 'Roboto Mono', sans-serif;
-        color: black;
-        opacity: .5;
-    }
-
-    .payments>p {
-
-        padding-bottom: 64px;
-        margin-bottom: 0;
-        font-family: 'Roboto Mono', sans-serif;
-        color: white;
-        font-size: 16pt;
-        letter-spacing: 4pt;
-    }
-
-    .payments>button {
+    
+    #Shinhan>div:first-child {
         
         display: none;
-        /*
-        margin-bottom: 32px;
-        padding: 16px 32px 16px 32px;
-
-        font-family: 'Nanum Gothic', sans-serif;
-        font-size: 14pt;
-        color: white;
-        background-color: rgba(255, 255 ,255 ,0);
-        border: 1px solid white;    
-        border-radius: 4px;
-        transition: .5s;
-
-        cursor: pointer;
-        */
+    }
+    
+    #Shinhan>img:nth-child(3) {
+        
+        margin: 32px 8% 10px 8%;
+        height: 128px;
+    }
+    
+    
+    #Toss:hover {
+        
+        box-shadow: 0px 0px 0px #FFF;
+    }
+    
+    #Shinhan:hover {
+        
+        box-shadow: 0px 0px 0px #FFF;
     }
 
-    .payments>button:hover {
-
-        background-color: rgba(255, 255, 255, .2);
-        transition: .5s;
-    }
-
-    #kookmin {
-
-        background-color: #545045;
-    }
-
-    #kakao {
-
-        background-color: #313955;
+    .copy {
+        
+        display: none;
     }
 
     footer>p>a {

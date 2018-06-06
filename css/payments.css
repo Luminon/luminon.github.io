@@ -9,8 +9,7 @@
 /* -- */
 
 header {
-    padding: 72px 0px 72px 0px;
-    background-color: #242424;
+    padding: 32px 0px 16px 0px;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     color: #AAAAAA;
@@ -18,181 +17,172 @@ header {
 
 header>img {
     
-    width: 320px;
+    width: 240px;
     margin-bottom: 36px;
 }
 
 article {
-    margin-top: 54px;
+    margin-top: 16px;
     margin-bottom: 64px;
-    max-width: 1280px;
+    max-width: 900px;
     min-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.useToss {
+.Payments {
     
-    margin-bottom:24px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 32px 0px 32px 0px;
-    background-color: #2F5FD2;
+    float: left;
+    width: 410px;
     text-align: center;
+    border-radius: 16px;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0px 0px 0px #FFFFFF;
+    transition: 1s;
+    margin: 0;
+}
+
+.Payments:first-child {
+    
+    margin-right: 40px;
+}
+
+.Payments:nth-child(3) {
+    
+    margin-left: 40px;
+}
+.Payments>h1 {
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #646464;
+    margin-bottom: 8px;
+}
+
+.Payments>h2 {
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color: #999999;
+}
+
+.acc_code {
+    
+    margin: 18px 0px 18px 0px;
+    
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.copy {
+    
+    margin-bottom: 24px;
+    
+    padding: 8px 16px 8px 16px;
     border-radius: 4px;
-    box-shadow: 0px 0px 0px #FFF;
-    transition: .75s;
     
+    color: #FFFFFF;
+    cursor: copy;
 }
 
-.useToss:hover {
+#Toss>img:first-child {
     
-    box-shadow: 0px 10px 16px #DFDFDF;
-    transition: .75s;
-    
+    height: 42px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
-.useToss>img {
+#Toss>img:nth-child(3) {
     
-    width: 128px;
-    transition: .75s;
+    height: 320px;
+    margin-bottom: 32px;
 }
 
-.useToss>img:hover {
+#Toss>p:nth-child(5) {
     
-    width: 256px;
-    transition: .75s;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10pt;
+    color: #646464;
 }
 
-.useToss>a {
+#Toss>p:nth-child(6) {
+    margin: 24px 0px 24px 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10pt;
+    color: #bdbdbd;
+}
+
+.tossMe {
     
     display: none;
 }
 
-.useToss>p {
+#toss_code {
     
-    width: 29%;
+    color: #2F5FD2;
+}
+
+#tossBtn {
     
+    background-color: #2F5FD2;
+    transition: .5s;
+    box-shadow: 0px 0px 0px #FFFFFF;
+}
+
+#tossBtn:hover {
+    
+    background-color: #6B8EE0;
+    box-shadow: 0px 8px 16px #DBDBDB;
+    transition: .5s;
+}
+
+#Toss:hover {
+    
+    box-shadow: 0px 16px 32px #B7CCFF;
+    transition: 1s;
+}
+
+#Shinhan>div:first-child {
+    
+    height: 42px;
     margin-top: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: bold;
-    font-size: 10pt;
-    line-height: 16pt;
-    color: #FFFFFF;
-    
+    margin-bottom: 18px;
 }
 
-.mainPayments {
+#Shinhan>img:nth-child(3) {
     
-    width: 30%;
-    padding-top: 8px;
-    margin-bottom: 8px;
-    border-top: 2px solid #FC5E75;
+    height: 320px;
+    margin-bottom: 130px;
 }
 
-.mainPayments>a {
+#shinhan_code {
     
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 10pt;
-    color: #FC5E75;
+    color: #2F5FD2;
 }
 
-.payments {
+#shinhanBtn {
     
-    margin-right: 5%;
-    
-    width: 30%;
-    text-align: center;
-    background-color: #0076be;
-    border-radius: 4px;
-    box-shadow: 0px 0px 0px #FFF;
-    transition: .75s;
-    float: left;
-    
-}
-
-.payments:nth-child(5) {
-    
-    margin-right: 0;
-}
-
-.payments:hover {
-    
-    box-shadow: 0px 10px 16px #DFDFDF;
-    transition: .75s;
-}
-
-
-.payments>img {
-    
-    width: 128px;
-    margin: 72px 0px 48px 0px;
-}
-
-.payments>h1 {
-    
-    margin-bottom: 16px;
-    
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 24pt;
-    color: white;
-    
-}
-
-.payments>h2 {
-    
-    margin-bottom: 16px;
-    
-    font-family: 'Roboto Mono', sans-serif;
-    color: black;
-    opacity: .5;
-}
-
-.payments>p {
-    
-    margin-bottom: 64px;
-    
-    font-family: 'Roboto Mono', sans-serif;
-    color: white;
-    font-size: 16pt;
-    letter-spacing: 4pt;
-}
-
-.payments>button {
-    
-    margin-bottom: 32px;
-    padding: 16px 32px 16px 32px;
-    
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 14pt;
-    color: white;
-    background-color: rgba(255, 255 ,255 ,0);
-    border: 1px solid white;    
-    border-radius: 4px;
+    background-color: #2F5FD2;
     transition: .5s;
-    
-    cursor: pointer;
-    
+    box-shadow: 0px 0px 0px #FFFFFF;
 }
 
-.payments>button:hover {
+#shinhanBtn:hover {
     
-    background-color: rgba(255, 255, 255, .2);
+    background-color: #6B8EE0;
+    box-shadow: 0px 8px 16px #DBDBDB;
     transition: .5s;
 }
 
-#kookmin {
+#Shinhan:hover {
     
-    background-color: #545045;
+    box-shadow: 0px 16px 32px #B7CCFF;
+    transition: 1s;
 }
 
-#kakao {
-    
-    background-color: #313955;
-}
 
 footer>p>a {
     
