@@ -1,0 +1,92 @@
+@media (max-width: 1050px) {
+
+body {
+
+    max-width: none;
+
+
+}
+
+header {
+    padding-top: 8%;
+    margin: 0px 8% 72px 8%;
+}
+
+header>div:first-child {
+
+    margin-bottom: 72px;
+
+    height: 400px;
+    border: 1px solid #FFFFFF
+}
+
+.nav_header>img {
+    
+    height: 36px;
+}
+
+.line {
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    width: 128px;
+    height: 1px;
+    background-color: #424242;
+}
+
+header>a {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 42pt;
+    color: #FFFFFF
+}
+
+.article_wide {
+
+    text-align: left;
+    margin: 0px 8% 0px 8%;
+}
+
+.textbutton {
+
+    padding: 8px;
+    margin: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5pt;
+    line-height: 36pt;
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+}
+
+.textbutton:hover {
+
+    text-decoration: line-through;
+}
+
+#title>a:first-child {
+
+    margin-left: 2px;
+}
+
+#itsuka_logo {
+
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    border-right: none;
+    border-left: none;
+}
+
+#itsuka_logo>a>img {
+
+    width: 196px;
+}
+
+}
