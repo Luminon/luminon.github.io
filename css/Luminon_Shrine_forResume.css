@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+/* Resume design : Powered by Shrine */
+
+body {
+    
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: #FFFFFF;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    
+    margin-top: 72px;
+}
+
+nav {
+
+    margin-top: -148px;
+    float: right;
+}
+
+nav>p {
+
+    text-transform: uppercase;
+    line-height: 24pt;
+}
+
+h1 {
+    margin-bottom: 16px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 12pt;
+    text-transform: uppercase;
+    line-height: 18pt;
+    color: #999999;
+
+}
+
+h2 {
+    margin-top: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 12pt;
+    text-transform: uppercase;
+    line-height: 24pt;
+    color: #242424;
+
+}
+
+h3 {
+
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 18pt;
+    text-transform: uppercase;
+    color: #999999;
+
+}
+
+article {
+
+    margin-top: 64px;
+    padding-top: 36px;
+    border-top: 1px solid #999999;
+}
+
+p {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 18pt;
+    color: #424242;
+
+}
+
+.title_square {
+
+    height: 256px;
+    margin-bottom: 64px;
+    border: 1px solid #242424;
+}
+
+.name {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 36pt;
+    line-height: 36pt;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.job {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 36pt;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.link {
+
+    padding: 2px 4px 2px 4px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: #727272;
+    transition: .2s
+    
+}
+
+.link:hover {
+
+    background-color: #d8e1ff;
+    color: #426CF4;
+    transition: .2s
+}
+
+.float_canceler {
+
+    clear: both;
+}
