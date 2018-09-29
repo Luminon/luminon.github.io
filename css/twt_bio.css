@@ -1,88 +1,99 @@
+body {
+
+    background-color: #242424;
+}
+
+
 header {
     
-    background-color: #242424;
-    text-align: center;
+    margin-bottom: 48px;
+
+    background-image: url(../elements/twtbio/profile-wall.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+
+    text-align: left;
+}
+.profile>img {
+
+    height: 48px;
+}
+
+.cover {
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: rgba(0, 0, 0, .7);
+ 
 }
 
 .profile {
-    
-    text-align: right;
-    padding-top: 480px;
-    margin-bottom: 36px;
+
     max-width: 1024px;
-    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
-    
-    background-image: url(../elements/twtbio/profile_wide.png);
-    background-repeat: no-repeat;
-    background-position: left
+
+}
+
+.profile>div:first-child {
+
+    margin-bottom: 64px;
+
+    padding-top: 360px;
+    border: 1px solid #FFFFFF;
 }
 
 
 .profile>p {
-    
-    text-align: right;
+
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     font-size: 40pt;
-    font-weight: bold;
+    font-weight: 800;
     color: white;
     
     margin-bottom: 16px;
 }
 
-.profile>p:nth-child(2){
-    
-    font-size: 12pt;
-    font-weight: normal;
-    color: #646464;
-    margin-bottom: 16px;
-}
+.profile>img {
 
-#twitter {
-    
     float: right;
-    border-radius: 4px;
-    border: 1px solid #55acee;
-    background-color: #242424;
-    box-shadow: 0px 0px 0px #000;
 }
 
-#twitter>a {
-    
-    font-weight: normal;
-    color: #FAFAFA;
-}
-
-#twitter:hover {
-    
-    background-color: #155382;
-    box-shadow: 0px 0px 0px #fff;
-}
-
-@media ( max-width: 1024px ) {
+@media ( max-width: 1280px ) {
     
     header {
         
+
         background-image: url(../elements/twtbio/profile.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        text-align: center;
+        text-align: left;
         
     }
 
-    .profile {
+    .cover {
     
-        text-align: center;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        background-color: rgba(0, 0, 0, .8);
+     
+    }
+
+    .profile {
+
+        max-width: 80%;
+    
+    }
+    
+    .profile>div:first-child {
+
+        margin-bottom: 8%;
+    
         padding-top: 360px;
-        margin-bottom: 36px;
-        max-width: 100%;
-        min-width: 0;
-        margin-left: auto;
-        margin-right: auto;
-        
-        background-color: rgba(0, 0, 0, .5);
-        background-size: 0;
+        border: 1px solid #FFFFFF;
     }
 
 
@@ -94,10 +105,9 @@ header {
         line-height: 40pt;
         color: white;
         margin-bottom: 8px;
-        margin-left: 10%
     }
 
-    .profile>p:nth-child(2){
+    .profile>p:nth-child(4){
         
         font-size: 12pt;
         font-weight: normal;
@@ -107,210 +117,14 @@ header {
         margin-bottom: 8px;
     }
 
-    #twitter {
-    
-        float:left;
-        border-radius: 4px;
-        border: 1px solid #55acee;
-        background-color: rgba(0, 0, 0, .5);
-        box-shadow: 0px 0px 0px #000;
-        margin-left: 10%;
+    .profile>img {
+
+        margin-top: 16px;
+        margin-bottom: 16px;
+
+        float: none;
+        height: 24px;
+        opacity: .5 ;
     }
 
-    #twitter>a {
-    
-        font-weight: normal;
-        color: #FAFAFA;
-    }
-
-    #twitter:hover {
-        
-        background-color: #155382;
-        box-shadow: 0px 0px 0px #fff;
-    }
-}
-/* Game */
-
-#game_NS>div {
-    
-    margin-left: 0;
-    background-color: #e60012;
-
-}
-
-#game_NS>div>p:nth-child(2) {
-
-    color: white;
-}
-
-#game_NS>div>p:nth-child(3) {
-    
-    border-top: 1px solid #ff939b;
-    color: #FFF;
-    
-}
-
-#game_PS>div {
-    
-    background-color: #2b64d8;
-
-}
-
-#game_PS>div>p:nth-child(2) {
-
-    color: white;
-}
-
-#game_PS>div>p:nth-child(3) {
-    
-    border-top: 1px solid #acc7ff;
-    color: #FFF;
-    
-}
-
-#game_ST>div {
-    
-    margin-left: 0;
-    background-color: #171a21;
-
-}
-
-#game_ST>div>p:nth-child(2) {
-
-    color: #b8b6b4;
-}
-
-#game_ST>div>p:nth-child(3) {
-    
-    border-top: 1px solid #999;
-    color: #b8b6b4;
-    
-}
-
-#game_PB>div {
-    
-    margin-left: 0;
-    background-color: #333333;
-
-}
-
-#game_PB>div>p:nth-child(2) {
-
-    color: #e69800;
-}
-
-#game_PB>div>p:nth-child(3) {
-    
-    border-top: 1px solid #e69800;
-    color: #e69800;
-    
-}
-
-#game_BN>div {
-    
-    background-color: #1d222c;
-
-}
-
-#game_BN>div>p:nth-child(2) {
-
-    color: #00acfc;
-}
-
-#game_BN>div>p:nth-child(3) {
-    
-    border-top: 1px solid #63799e;
-    color: #00acfc;
-    
-}
-
-#game_MC>div {
-    
-    background-color: #462519;
-
-}
-
-#game_MC>div>p:nth-child(2) {
-
-    color: #FFFFFF;
-}
-
-#game_MC>div>p:nth-child(3) {
-    
-    border-top: 1px solid #727272;
-    color: #FFFFFF;
-    
-}
-
-#game_DC>div {
-    
-    background-color: #7289DA;
-
-}
-
-#game_DC>div>p:nth-child(2) {
-
-    color: #FFF;
-}
-
-#game_DC>div>p:nth-child(3) {
-    
-    border-top: 1px solid #acbeff;
-    color: #FFF;
-    
-}
-
-#game_RS>div {
-    
-    background-color: #1c1c1c;
-
-}
-
-#game_RS>div>p:nth-child(2) {
-
-    color: #f89c27;
-}
-
-#game_RS>div>p:nth-child(3) {
-    
-    border-top: 1px solid #f89c27;
-    color: #f89c27;
-    
-}
-
-#game_SW>div {
-    
-    background-color: #41c6d0;
-
-}
-
-#game_SW>div>p:nth-child(2) {
-
-    color: #172334;
-}
-
-#game_SW>div>p:nth-child(3) {
-    
-    border-top: 1px solid #172334;
-    color: #172334;
-    
-}
-
-#game_CU>div {
-    
-    margin-left: 0;
-    background-color: #ff6050;
-
-}
-
-#game_CU>div>p:nth-child(2) {
-
-    color: #FFF;
-}
-
-#game_CU>div>p:nth-child(3) {
-    
-    border-top: 1px solid #FFF;
-    color: #FFF;
-    
 }

@@ -3,10 +3,14 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* VERSION : RELEASE 0.1 */
+/* VERSION : RELEASE 0.2 For BIO*/
 
 /* ARTICLES */
 
@@ -39,16 +43,16 @@ article {
 
 h1 {
     
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 24pt;
+    font-family: "Raleway","NanumGothic", sans-serif;
+    font-size: 16pt;
     font-weight: 800;
-    color: #242424;
+    color: #FFFFFF;
     
     padding-top: 16px;
     padding-bottom: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     
-    border-bottom: 1px solid #646464;
+    border-bottom: 1px solid #424242;
 }
 
 h2 {
@@ -97,9 +101,11 @@ h6 {
 a, pre, ul, p {
     
     font-family: "NanumGothic", sans-serif;
-    font-size: 12pt;
+    font-size: 11pt;
     line-height: 24pt;
-    color: #646464;
+
+    word-break: keep-all;
+    color: #EEEEEE;
 }
 
 s {
@@ -120,12 +126,12 @@ ul>ul {
 }
 
 code {
-    font-family: "Roboto Mono","NanumGothic", sans-serif;
+    font-family: "Roboto Mono","NanumGothic", monospace;
     font-weight: bold;
-    color: #727272;
+    color: #FFFFFF;
     
-    background-color: #DFDFDF;
-    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 1px;
     
     padding-left: 2px;
     padding-right: 2px;
@@ -146,8 +152,8 @@ code {
     color: #2196F3;
     font-weight: bold;
     
-    background-color: rgba("255 255 255 0");
-    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1px;
     
     padding-left: 2px;
     padding-right: 2px;
@@ -157,8 +163,7 @@ code {
 
 .link:hover {
     
-    background-color: #BBDEFB;
-    
+    background-color: rgba(33, 150, 243, .2);
     transition: .5s;
 }
 
@@ -172,25 +177,16 @@ li>a {
 .img {
     
     width: 100%;
-    border-radius: 4px;
-    box-shadow: 0px 0px 0px #FFF;
-    transition: .6s;
+    border-radius: 2px;
 }
 
-.img:hover {
-    
-    box-shadow: 0px 10px 16px #DFDFDF;
-    transition: .6s;
-}
 
 @media ( max-width: 1024px ) {
     
     .img {
     
         width: 100%;
-        border-radius: 8px;
-        box-shadow: 0px 10px 16px #DFDFDF;
-        transition: .6s;
+        border-radius: 1px;
     }
     
 }
@@ -465,7 +461,7 @@ footer {
     margin-top: 36px;
     padding-top: 36px;
     padding-bottom: 36px;
-    background-color: #FAFAFA;
+    background-color: #151515;
     
     text-align: center;
 }
