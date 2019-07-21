@@ -22,7 +22,7 @@
 
 ## 라이선스
 
-> [전문 보기 / See lisences](./lisences/licences.md)
+> [전문 보기 / See lisences](./elements/lisences/lisences.md)
 
 - 모든 _코드_ 는 `MIT Lisence`를 따릅니다. 작성된 __개인 정보를 제외한__ `html` 문서, `css` 파일 등은 MIT 라이선스에 따라 자유롭게 사용하실 수 있습니다.
 
