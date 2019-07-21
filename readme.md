@@ -6,7 +6,7 @@
 
 # Code
 
-![image](./elements/lisenses/mit.png)
+![image](./elements/lisences/mit.png)
 
 ## 주요 페이지
 
