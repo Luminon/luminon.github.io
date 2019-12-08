@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     
     <meta property = "og:title" content="110489349561 신한 구창림">
-    <meta property = "og:description" content="Luminon payments로 빠르게 송금하세요!">
+    <meta property = "og:description" content="카카오페이, Toss로도 송금하실 수 있습니다!">
     <meta property = "og:image" content="https://luminon.design/elements/bank/png/payments.png">
 
     <!-- Link CSS -->
@@ -15,11 +15,8 @@
     <!-- Link CSS -->
     <link href = "css/payments_mobile.css" rel="stylesheet">
 
-    <!--Nanum Gothic -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-    
-    <!--Roboto Mono-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:700|Raleway:700|Roboto+Mono:700&display=swap" rel="stylesheet"> 
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -41,6 +38,8 @@
 
         document.body.removeChild(aux);
 
+        alert("복사되었습니다.")
+
         }     
 
     </script>
@@ -48,9 +47,73 @@
 </head>
 <body>
     <header>
-        <img src="elements/bank/SVG/ic_logo.svg" alt="Luminon Payments">
-        <p>Luminon Canoness &#40;구창림&#41; 에게 금액을 지불할 수 있는 계좌 정보입니다.</p>
+        <div class="head-title">
+            <img src="elements/bank/SVG/ic_logo_lined.svg" alt="Luminon Canoness Logo">
+            <a>LUMINON PAYMENTS</a>
+        </div>
     </header>
+    <article>
+        <section class="container">
+            <div class="con-section">
+                <div class="con-title" id="bank-title">
+                    <img src="elements/bank/SVG/ic_bank.svg" alt="Bank Account">
+                    <a>계좌 정보</a>
+                </div>
+                <div class="con-contents" id="bank-contents">
+                    <p><a>110-</a>489-</p>
+                    <p>349-<a>561</a></p>
+                </div>
+                <div class="con-subcontents" id="bank-subcontents">
+                    <a>신한은행&#32;&#47;</a><a>&#32;구창림</a>
+                    <p id="code" style="display: none;">110489349561</p>
+                    <button onclick="copyToClipboard('code')" class="copy" id="bankBtn">복사하기</button>
+                    <div style="clear: both;"></div>
+                </div>
+                <footer>
+                    <p>
+                        (C) 2019 LUMINON CANONESS<br>
+                        각 은행, 서비스의 BI는 각 은행과 회사의 소유입니다. 
+                    </p>
+                    <p>
+                        <a href="https://luminon.design">HOMPAGE</a>&nbsp;/&nbsp;<a href="https://itsuka.space">ITSUKA.SPACE</a>&nbsp;/&nbsp;<a href="https://twitter.com/atLuminon">TWITTER</a></p>
+                    </p>
+                </footer>
+            </div>
+            <div class="con-section">
+                <div class="con-title" id="kakao-title">
+                    <img src="elements/bank/SVG/ic_chat.svg" alt="KakaoPay">
+                    <a>카카오페이 송금</a>
+                </div>
+                <div class="con-contents" id="kakao-contents">
+                    <p>그럼요&#33;</p>
+                    <p><a>카카오페이</a></p>
+                    <p>됩니다.</p>
+                </div>
+                <div class="con-subcontents" id="kakao-subcontents">
+                    <img src="elements/bank/png/img_qr.jpg" alt="QR Code">
+                </div>
+            </div>
+            <div class="con-section">
+                <div class="con-title" id="with-title">
+                    <img src="elements/bank/SVG/ic_heart.svg" alt="With You">
+                    <a>나눠내기</a>
+                </div>
+                <div class="con-contents" id="with-contents">
+                    <div>
+                        <a id="with-contents-title">APPLE MUSIC - 매월 30일</a>
+                        <p>2200</p>
+                        <a>/ 13500원을 6인이서 나눈 가격 (10원 단위 제외)</a>
+                    </div>
+                    <div>
+                        <a id="with-contents-title">NETFLIX - 매월 30일</a>
+                        <p>2900</p>
+                        <a>/ 14500원을 5인이서 나눈 가격을 반올림한 금액</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <!--
     <article>
         <div class="Payments" id="Toss">
             <img src="elements/bank/SVG/ic_toss.svg" alt="Toss"><br>
@@ -97,6 +160,7 @@
         <p>(C)2017 Luminon Canoness | 각 은행, 서비스의 BI는 각 은행과 회사의 소유입니다. | <a href="http://itsuka.me" class="link">Luminon Creative</a> | <a href="mailto:atluminon@itsuka.me" class="link">MAIL</a><br>
         </p>
     </footer>
+    -->
 </body>
 </html>
 
