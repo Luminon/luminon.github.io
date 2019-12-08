@@ -389,7 +389,6 @@ footer>p>a {
 
     .con-subcontents {
 
-        font-size: 12pt;
         padding: 24px 24px 24px 24px;
     }
 
@@ -397,7 +396,18 @@ footer>p>a {
 
     #bank-subcontents {
 
-        padding: 0px 0px 0px 24px;
+        padding: 24px;
+    }
+    
+    #bank-subcontents>a {
+
+        padding: 0px;
+    }
+
+    #bankBtn {
+
+        display: none;
+        float: none;
     }
 
     /* Kakao */
