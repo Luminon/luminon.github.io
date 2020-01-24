@@ -5,6 +5,8 @@
 	font-size: 100%;
     vertical-align: baseline;
     text-decoration: none;
+    font-family: "Raleway", "나눔고딕", "NanumGothic", "맑은고딕", "Malgun Gothic", sans-serif;
+    text-align: center;
 }
 
 body {
@@ -19,31 +21,109 @@ body {
 
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 
-.pathport-title {
+.pathport-logo, .pathport-search, .pathport-bookmarks {
 
-    padding: 128px;
-    font-family: "Raleway", sans-serif;
-    font-size: 32pt;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    max-width: 1000px;
+}
+
+
+.pathport-logo {
+
+    width: 256px;
+    margin: 128px auto 24px auto;
+}
+
+.pathport-search {
+
+    margin: 0px auto 48px auto;
+    
+}   
+
+.pathport-search>input {
+
+    width: 100%;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.5);
+    font-weight: bold;
+    text-align: left;
+    color: #424242;
 }
 
 .pathport-bookmarks {
-
-    margin-left: 128px;
+    
+    margin: 0px auto 0px auto;
 }
 
 .pathport-bookmark-container>div {
 
-    width: 256px;
+    float: left;
+    width: 156px;
+    margin: 0px 24px 24px 0px;
+    padding: 16px 16px 16px 16px;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 8px;
     background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    transition: .1s;
 }
+
+.pathport-bookmark-container>div:hover {
+
+    width: 200px;
+    border: 0px solid rgba(255,255,255,0.5);
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+
+}
+
+.pathport-bookmark-container>div:active {
+
+    border: 4px solid rgba(255,255,255,0.5);
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+}
+
 
 .pathport-bookmark-container>div>img {
 
-    padding: 72px, 8px, 8px, 16px;
     width:24px;
+    border-radius: 4px;
+}
+
+.pathport-bookmark-container>div>p {
+
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+    color: rgba(255,255,255,0.9);
+
+}
+
+@media ( max-width: 1000px ) {
+
+    .pathport-logo {
+
+        width: 256px;
+        margin: 128px 128px 24px 128px;
+    }
+    
+    .pathport-search {
+    
+        margin: 0px 128px 48px 128px;
+        
+    }
+
+    .pathport-bookmarks {
+    
+        margin: 0px 128px 0px 128px;
+    }
+
 }
