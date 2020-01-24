@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+body {
+
+    background-image: url('../elements/pathport/background.webp');
+    background-color: rgba(0,0,0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pathport-body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.pathport-title {
+
+    padding: 128px;
+    font-family: "Raleway", sans-serif;
+    font-size: 32pt;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pathport-bookmarks {
+
+    margin-left: 128px;
+}
+
+.pathport-bookmark-container>div {
+
+    width: 256px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.pathport-bookmark-container>div>img {
+
+    padding: 72px, 8px, 8px, 16px;
+    width:24px;
+}
