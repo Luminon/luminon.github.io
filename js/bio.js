@@ -68,24 +68,3 @@ function localeJp (toggle = false) {
         document.getElementById("jpnButton").style.opacity = "0.5";
     }
 } 
-
-
-
-/*
-	if(toggle) {
-		switch(userMode) {
-			case 'auto':
-                userMode = 'dark';
-                break;
-			case 'dark':
-                userMode = 'light';
-                break;
-            case 'light':
-                userMode = 'dark';
-                break;
-			default:
-				userMode = 'auto';
-		}
-		localStorage.userThemeMode = userMode;
-    }
-    */
