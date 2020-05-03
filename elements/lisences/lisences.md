@@ -46,5 +46,5 @@ No additional restrictions — You may not apply legal terms or technological me
     - 2차 창작 형태의 그래픽 자산은 원 그래픽 자산의 라이선스를 우선합니다.
 
 - Exception terms
-    - You can't use m(Luminon Canoness / Clark Changlim Gu) personal brand identity resources without permission.
+    - You can't use my(Luminon Canoness / Clark Changlim Gu) personal brand identity resources without permission.
     - Derivative works give priority to that's lisences.
